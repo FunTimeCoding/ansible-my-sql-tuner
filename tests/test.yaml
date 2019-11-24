@@ -1,4 +1,4 @@
 ---
 - hosts: localhost
   roles:
-    - ansible-my-sql-tuner
+  - ansible-my-sql-tuner
