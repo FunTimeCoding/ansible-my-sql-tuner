@@ -1,10 +1,6 @@
 ---
 # https://github.com/major/MySQLTuner-perl
 
-- file:
-    path: '{{ ansible_user_dir }}/src'
-    state: directory
-
 - git:
     repo: git@github.com:major/MySQLTuner-perl.git
     dest: '{{ ansible_user_dir }}/src/my-sql-tuner'

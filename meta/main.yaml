@@ -1,3 +1,4 @@
 ---
 dependencies:
+- role: user-src-directory
 - { role: known-hosts-git-hub, when: git.protocol == 'ssh' }
